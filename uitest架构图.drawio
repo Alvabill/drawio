@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T03:42:13.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="7vKcYVQOxnywcJ-GtY0B" version="17.1.0" type="github"><diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">7ZrLcpswFIafxsvMgAiELIOdpJ3mNnVmOu2mI4MKqgWiQsROn75HIBljsOOMW9cLVrF+HQ66/N9BOB4543R5K3Ce3POIsBGyouXImYwQshFy4I9SXo3i2LUSCxpprRGm9DfRoqXVkkakaAVKzpmkeVsMeZaRULY0LARftMN+cNa+a45j0hGmIWZd9QuNZFKrvms1+gdC48Tc2bZ0T4pNsBaKBEd8sSY51yNnLDiX9ad0OSZMrZ5Zl/q6my29q4EJksl9LvjuptPn8mkpzr7RT5/nwWT69eJMZ3nBrNQT1oOVr2YFigVNGc6gFfzgmZzqHhh/ECaURXf4lZdqBIXE4dy0goQL+hviMYMuGwToFlJvMPJbEVN1pQ4TpICYJzOtTekeK29ZK/UOF1ILIWcM5wWdVeNTSopFTLOAS8lTLZnZ3FDGxpxxAXrGV7O7wSllyqtPRKQQBmNA1j0WcyLM/OsZ2B60c04zWRnMDUbuBJQXIiQF91wxGmfQIXleTz2cB1xEKkszeFyPtF4cwecrh6m1LeZEhonujmihgu9LMP60CtUdevvgrmS51Rf2ym3AKeEpkeIVQswFnjaoRtTXzUVjd/dca8ma1c+NiDVi8Sp140L4oI1YNfnsp4IUWQzPCKsve36E9uTR+A7LUud7IIta3OlgtDY57fh+83aX+O0NT2TKjHHW7Gv37PRMuywochzSLF65zu01yi502nZBlpGmdWajdQDoQafLWD8pLbfVK7VJBwBj2C84U3tSaSZshJwry0Vosq8rt9ejrlW1NaFsbFrT9vusaaN3WxOa2p3bnYqLOSgwRo+pfZoJ+BTLasK1AnuftQzo/SpVfa+sdrbQQ7yCkIyD3VgTsJmJbgoqw/bURWVMldi28mVfWlejhVyTEWZcJ23fCOTOzUGrp2bkajMZDkkCD1Qi2g/Znbw6O3ldJFQS5XPVXsCZooGwv0yuW3DLk8puoHxW5bhmhZdZRCLdjUWo0b7spbWFxx5lA4dJKcitGv7E16P8Ygy6d91+s951izlq13KTdR2Yvlruv7+U788LGng5gJfzgZfj8WKfBDDOAMwBwLgDMEd8wPxfYCaPHx9uu28OHxUjueAxnIiLPSzjDe8Qp/IOYVmeZ1n/4h3CZPE3HHwS7xTnQ8k/oORfDCX/IGK8ncSc4juFO/ByAC/+wMvxePnP7xSTx4fr7glpzNOcEQmL/7ZbLofT0amcjuzgyr5G//B05HineDryhmp/QLW3rZ0AD+X+LWQudyJzisejiwGYQ4CxB2COB8xpfOfqD8QcQszu/8IPxPzdR8zxiIFm8wulKnTth17O9R8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-15T03:59:16.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="BEREU7yeAgAZHHr7roEJ" version="17.1.0" type="github">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="1067" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-2" value="UI&lt;br&gt;层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="60" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-3" value="应&lt;br&gt;用&lt;br&gt;层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="60" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-4" value="数&lt;br&gt;据&lt;br&gt;层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="510" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="510" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="410" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-10" value="" style="line;strokeWidth=2;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="610" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-11" value="" style="line;strokeWidth=2;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="620" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-14" value="数据大盘" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-15" value="项目创建" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-16" value="用例创建" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-18" value="任务创建" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-19" value="执行日志" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-20" value="组件创建" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-21" value="权限服务" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-22" value="消息服务" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-23" value="日志服务" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-24" value="任务模块" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-26" value="puputeer核心模块" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-27" value="进程服务" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-28" value="平台数据" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="425" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-29" value="执行数据" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="425" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Es_Tln71gu4uyhZNHYvM-30" value="监控数据" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="425" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
