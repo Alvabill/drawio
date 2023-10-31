@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T09:53:46.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="YxgZ0cMht4SktE3SqodL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T11:19:01.415Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="-gi4Zf8-furib_NWY1Z5" version="22.0.8" type="github">
   <diagram name="第 1 页" id="vNiX_xD5X6a4FUl1tAVo">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-1" target="6NxaNjgt_ao2GrioJeMY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-1" value="构建当前页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-2" target="6NxaNjgt_ao2GrioJeMY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-2" target="6NxaNjgt_ao2GrioJeMY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-3" target="6NxaNjgt_ao2GrioJeMY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-3" value="复制继承镜像&lt;br&gt;page文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="358" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-5" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="328" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-6" value="end" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-8" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="258" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-10" target="6NxaNjgt_ao2GrioJeMY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-10" value="构建继承镜像&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-12" target="6NxaNjgt_ao2GrioJeMY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-12" value="基于最新的继承镜像&lt;br&gt;构建发布镜像" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-14" target="6NxaNjgt_ao2GrioJeMY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-14" value="镜像推送到仓库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-16" value="end" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-2" value="拉取上一次继承镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-21" target="6NxaNjgt_ao2GrioJeMY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-21" value="fef pub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-23" value="包含继承文件和当前页面最新构建文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="475" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-24" value="第二次fef pub提单拿到的继承镜像是这个版本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="484" y="675" width="260" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
