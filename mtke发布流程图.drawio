@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T11:57:08.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Zh1Nc0XoxCXrPAOlqtQF" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T12:10:30.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="iLBM1dftaBz-DvIV8JL3" version="22.0.8" type="github">
   <diagram name="第 1 页" id="vNiX_xD5X6a4FUl1tAVo">
     <mxGraphModel dx="954" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
         <mxCell id="6NxaNjgt_ao2GrioJeMY-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6NxaNjgt_ao2GrioJeMY-51" target="6NxaNjgt_ao2GrioJeMY-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6NxaNjgt_ao2GrioJeMY-51" value="发布完成&lt;br&gt;构建正式镜像并推动到仓库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-51" value="发布完成&lt;br&gt;基于当前流程预发布镜像构建正式镜像并推动到仓库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="861" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6NxaNjgt_ao2GrioJeMY-53" value="end" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -149,6 +149,21 @@
         </mxCell>
         <mxCell id="6NxaNjgt_ao2GrioJeMY-58" value="第二次fef pub提单拿到的继承镜像是这个版本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="960" y="876" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-59" value="有误发风险" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-60" value="需要支持&lt;br&gt;多预发布环境" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-61" value="需要严格&lt;br&gt;使用fef pub发布" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-62" value="可以规避&lt;br&gt;误发风险" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="940" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NxaNjgt_ao2GrioJeMY-63" value="需要钩子触发&lt;br&gt;（暂无）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="980" y="943" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
