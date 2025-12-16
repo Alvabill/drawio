@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1" pages="2">
+  <diagram id="S-Ah_5zfkHY6R_q2Cr8q" name="第 1 页">
+    <mxGraphModel dx="946" dy="1280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="swimlane;fontStyle=1;fontSize=14;fillColor=#1E3A5F;strokeColor=#4A90E2;rounded=1;fontColor=#FFFFFF;" value="客户端" vertex="1">
+          <mxGeometry height="1350" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-49" edge="1" parent="2" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" parent="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C5282;strokeColor=#63B3ED;fontColor=#FFFFFF;" value="HTTP 请求&amp;nbsp;&lt;div&gt;/page-a&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C5282;strokeColor=#63B3ED;fontColor=#FFFFFF;" value="返回 HTML&lt;br&gt;TTFB: 150ms" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-62" edge="1" parent="2" source="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" parent="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C5282;strokeColor=#63B3ED;fontColor=#FFFFFF;" value="客户端上报性能指标&lt;br&gt;- FCP: 200ms&lt;br&gt;- LCP: 350ms&lt;br&gt;- TTI: 500ms" vertex="1">
+          <mxGeometry height="80" width="100" x="10" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="swimlane;fontStyle=1;fontSize=14;fillColor=#4A235A;strokeColor=#9B59B6;rounded=1;fontColor=#FFFFFF;" value="CDN" vertex="1">
+          <mxGeometry height="1350" width="120" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-48" edge="1" parent="3" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" parent="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6C3483;strokeColor=#AF7AC5;fontColor=#FFFFFF;" value="缓存查询" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-51" edge="1" parent="3" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" parent="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6C3483;strokeColor=#AF7AC5;fontColor=#FFFFFF;" value="缓存未命中&lt;div&gt;回源请求&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6C3483;strokeColor=#AF7AC5;fontColor=#FFFFFF;" value="缓存 HTML&lt;br&gt;TTL: 60s" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="swimlane;fontStyle=1;fontSize=14;fillColor=#1B5E20;strokeColor=#4CAF50;rounded=1;fontColor=#FFFFFF;" value="网关" vertex="1">
+          <mxGeometry height="1350" width="120" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-52" edge="1" parent="4" source="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" parent="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#66BB6A;fontColor=#FFFFFF;" value="路由请求&lt;br&gt;- URL: /page-a&lt;br&gt;- User-Agent&lt;br&gt;- Geo: CN-BJ" vertex="1">
+          <mxGeometry height="60" width="120" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#66BB6A;fontColor=#FFFFFF;" value="转发请求&lt;br&gt;+ Trace-ID: abc123&lt;br&gt;+ Span-ID: span-001" vertex="1">
+          <mxGeometry height="40" width="120" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="swimlane;fontStyle=1;fontSize=14;fillColor=#E65100;strokeColor=#FF9800;rounded=1;fontColor=#FFFFFF;" value="调度器" vertex="1">
+          <mxGeometry height="1350" width="120" x="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#FFB74D;fontColor=#000000;" value="查询实时负载指标" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#FFB74D;fontColor=#000000;" value="查询服务实例列表&lt;br&gt;- 页面 A: 8 个实例&lt;br&gt;- 页面 B: 2 个实例" vertex="1">
+          <mxGeometry height="60" width="120" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA726;strokeColor=#FFE0B2;fontColor=#000000;" value="路由决策算法:&lt;br&gt;1. 过滤不健康实例 (错误率 &gt; 5%)&lt;br&gt;2. 计算每个实例的权重:&lt;br&gt;   Weight = (1 - CPU%) × (1 - MemUsage%) × GeoScore&lt;br&gt;3. 加权随机选择实例&lt;br&gt;   选中: 页面 A 实例2" vertex="1">
+          <mxGeometry height="170" width="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-55" edge="1" parent="5" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" parent="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#FFB74D;fontColor=#000000;" value="返回路由结果&lt;br&gt;Target: page-a-instance-2" vertex="1">
+          <mxGeometry height="40" width="120" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="swimlane;fontStyle=1;fontSize=14;fillColor=#004D40;strokeColor=#009688;rounded=1;fontColor=#FFFFFF;" value="页面A服务" vertex="1">
+          <mxGeometry height="1350" width="120" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00796B;strokeColor=#80CBC4;fontColor=#FFFFFF;" value="上报渲染开始事件&lt;br&gt;Trace-ID: abc123&lt;br&gt;Event: render_start" vertex="1">
+          <mxGeometry height="60" width="100" x="10" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4DB6AC;strokeColor=#B2DFDB;fontColor=#000000;" value="执行渲染流程:&lt;br&gt;1. 获取异步上下文&lt;br&gt;   - Trace-ID, User-ID, Request-ID&lt;br&gt;2. 检查缓存&lt;br&gt;   - 页面级缓存未命中&lt;br&gt;3. 调用后端 API&lt;br&gt;   - 获取页面数据 (耗时: 50ms)&lt;br&gt;4. React 渲染&lt;br&gt;   - renderToString (耗时: 80ms)&lt;br&gt;5. 注入客户端状态&lt;br&gt;   - 序列化数据, 生成 HTML" vertex="1">
+          <mxGeometry height="280" width="120" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00796B;strokeColor=#80CBC4;fontColor=#FFFFFF;" value="开始 SSR 渲染" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-56" edge="1" parent="6" source="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" parent="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00796B;strokeColor=#80CBC4;fontColor=#FFFFFF;" value="返回 HTML&lt;br&gt;+ Set-Cookie&lt;br&gt;+ Cache-Control" vertex="1">
+          <mxGeometry height="40" width="120" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-64" edge="1" parent="6" source="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" parent="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00796B;strokeColor=#80CBC4;fontColor=#FFFFFF;" value="上报渲染完成事件&lt;br&gt;Trace-ID: abc123&lt;br&gt;Event: render_complete&lt;br&gt;Duration: 130ms&lt;br&gt;CacheHit: false" vertex="1">
+          <mxGeometry height="90" width="100" x="10" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="swimlane;fontStyle=1;fontSize=14;fillColor=#880E4F;strokeColor=#E91E63;rounded=1;fontColor=#FFFFFF;" value="监控系统" vertex="1">
+          <mxGeometry height="1350" width="120" x="740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-54" edge="1" parent="7" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="320" />
+            </Array>
+            <mxPoint x="-160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" parent="7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AD1457;strokeColor=#F48FB1;fontColor=#FFFFFF;" value="返回负载数据:&lt;br&gt;- 页面 A 实例1: CPU 60%, QPS 100&lt;br&gt;- 页面 A 实例2: CPU 45%, QPS 80&lt;br&gt;- 页面 A 实例3: CPU 70%, QPS 120&lt;br&gt;- ..." vertex="1">
+          <mxGeometry height="125" width="120" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F48FB1;strokeColor=#F8BBD0;fontColor=#000000;" value="智能优化建议:&lt;br&gt;- 该页面缓存命中率低&lt;br&gt;- 建议增加缓存 TTL&lt;br&gt;- API 调用可优化" vertex="1">
+          <mxGeometry height="60" width="120" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AD1457;strokeColor=#F48FB1;fontColor=#FFFFFF;" value="监控系统分析:&lt;br&gt;- 端到端延迟: 150ms&lt;br&gt;- SSR 渲染耗时: 130ms&lt;br&gt;- API 调用耗时: 50ms&lt;br&gt;- 缓存命中率: 0%" vertex="1">
+          <mxGeometry height="100" width="120" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="25" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=1;exitY=0.5;strokeColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="670" />
+            </Array>
+            <mxPoint x="600" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-53" edge="1" parent="1" source="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" target="20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-60" edge="1" parent="1" source="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6C3483;strokeColor=#AF7AC5;fontColor=#FFFFFF;" value="返回响应" vertex="1">
+          <mxGeometry height="30" width="100" x="190" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="u3GzWO77Rfgg3o1q0r4n-63" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9EbjKv-_mA-l4BeKOcq0" name="第 2 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
